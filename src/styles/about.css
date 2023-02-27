@@ -1,0 +1,12 @@
+.topContainer {
+	background-color: purple;
+	height: 96vh;
+	width: 98.9vw;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bottomContainer {
+	display: flex;
+	margin-top: 10px;
+}

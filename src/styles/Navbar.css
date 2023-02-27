@@ -1,0 +1,60 @@
+.navbar {
+	height: 120px;
+	background-color: crimson;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar a {
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+}
+.navbar a:hover {
+	transition: 0.3s ease-in-out;
+	color: black;
+	font-weight: 500;
+	font-size: 1.3rem;
+}
+
+.navbar .leftside img {
+	width: 120px;
+	margin-top: 10px;
+	mix-blend-mode: color-burn;
+	display: flex;
+}
+.logo {
+	font-family: 'Sacramento', cursive;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	color: white;
+}
+
+.navbar .rightside {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+	.navbar .rightside a {
+		display: none;
+	}
+	.navbar .rightside {
+		justify-content: flex-end;
+		padding-right: 50px;
+	}
+	.navbar .rightside button {
+		display: inherit;
+	}
+}
+@media only screen and (min-width: 600px) {
+	.navbar .rightside button {
+		display: none;
+	}
+	.hiddenLinks {
+		display: none;
+	}
+}
